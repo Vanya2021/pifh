@@ -1,0 +1,386 @@
+
+*{
+    box-sizing: border-box;
+    }
+    
+    
+     body{
+         margin: 0;
+         font-family: 'Montserrat', sans-serif;
+         font-size: 15px;
+         line-height: 1.6;
+         color: rgb(255, 255, 255);
+         
+     }
+    .container{
+        position: relative;
+        width: 1422px;
+        height: 100vh;
+        float: right;
+        background: url(foto/bg_container.png);
+        background-size: 1422px auto;
+        margin: -300px 0 0 0 ;
+    }
+    
+    .menu{
+        padding: 20px 0 0 20px;
+    }
+    .sms{
+        text-align: right;
+        padding: 20px 40px 0 0 ;
+    }
+         
+     .intro{
+        position: relative;
+         width: 1522px;
+         height: 100vh;
+         background: url(foto/intro.png)
+         
+     }
+     .txt2{
+        -webkit-transform: rotate(180deg);
+        writing-mode: tb-rl;
+         margin: 50px 0 0 0;    
+     }
+    .box{
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        margin: -50px 0 0 450px;
+    }
+    .txt3{
+        position: absolute; /* Абсолютное позиционирование */
+    bottom: 15px; /* Положение от нижнего края */
+    left:  15px; /* Положение от левого края */
+    width: 500px;
+    height: 100px;
+    overflow: auto;
+    margin: 0 0 10px 50px;
+    }
+    .t3{
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 15px; /* Положение от нижнего края */
+    left:  50px; /* Положение от левого края */
+    margin: 0 0 130px 500px;
+    }
+    .txt4{
+        position: absolute; /* Абсолютное позиционирование */
+    bottom: 15px; /* Положение от нижнего края */
+    left:  15px; /* Положение от левого края */
+    margin: 0 0 120px 50px;
+    }
+    .txt5{
+        position: absolute; /* Абсолютное позиционирование */
+    bottom: 15px; /* Положение от нижнего края */
+    right:  15px; /* Положение от левого края */
+    margin: 0 50 30px 0;
+    }
+    .intro2{
+        
+            
+             width: 1522px;
+             height: 550px;
+             background: url(foto/dg_intro2.png);
+             background-size: 1522px auto;
+             color: #444;
+             
+             position: relative;
+
+    }
+    .txt6{
+        padding: 20px 0 0 500px;
+        color: #ccc;
+    }
+
+    .slider{
+        height: 330px;
+        width: 100%;
+
+        position: absolute;
+        left: -60px;
+    }
+    
+    .slider__item{
+        margin-right: 30px;
+        width: 20%;
+        float: left;
+    }
+
+    .slider__img{
+        overflow: hidden;
+        height: 170px;
+    }
+
+    .slider__title{
+        font-size: 25px;
+        color: #0c2539;
+        font-weight: 400;
+    }
+    .slider__text{
+        height: 150px;
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .intro3{
+    
+    width: 1522px;
+    height: 100vh;
+    float: right;
+    background: url(foto/bg_1.png);
+ }
+ .b1{
+    -webkit-transform: rotate(180deg);
+    writing-mode: tb-rl;
+    margin: 0 0 0 0;
+ }
+
+   .container2{
+    position: relative;
+    width: 1422px;
+    height: 800px;
+    float: right;
+    background: url(foto/Screenshot_2.png);
+    background-size: 1422px auto;
+    margin: -810px 0 0 0;
+    
+    
+}
+.box2{
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    margin: -50px 0 0 450px;
+}
+    .container3{
+        position: relative;
+        width: 1522px;
+        height: 850px;
+        float: right;
+        background: url(foto/intro_4.png);
+        background-size: 1522px auto;
+        
+        
+    }
+.inf{
+width: 300px;
+height: 200px;
+overflow: hidden;
+float: left;
+margin: 100px 0 0 500px;
+
+}
+.inf1{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 100px 0 0 50px;
+    
+    
+}
+.p{
+    width: 150px;
+    height: 205px;
+   
+    margin: 60px 0 0 0;
+    float: left;
+    
+    
+}
+.p1{
+    width: 380px;
+    height: 205px;
+    margin: 60px 0 0 80px;
+    float: left;
+    
+}
+.p2{
+    width: 380px;
+    height: 205px;
+   
+    margin: 60px 0 0 10px;
+    float: left;
+    
+}
+.p3{
+    width: 380px;
+    height: 205px;
+   
+    margin: 60px 0 0 20px;
+    float: left;
+    
+}
+.p4{
+    margin: 200px 0 0 -200px;
+    
+    
+}
+.n{
+        
+    width: 190px;
+    height: 205px;
+    overflow: hidden;
+    background-color: #ccc;
+    
+   
+}
+.n1{
+width: 300px;
+    height: 205px;
+    border-radius: 20px 0 0 0;
+    margin: -240px 0 0 230px;
+    overflow: hidden;
+    background-color: #ccc;
+}
+
+.n2{
+width: 300px;
+height: 205px;
+border-radius: 20px 0 0 0;
+
+margin: -225px 0 0 620px;
+overflow: hidden;
+float: left;    
+background-color: #ccc;
+
+}
+ 
+    
+.n3{
+width: 300px;
+height: 205px;
+border-radius: 20px 0 0 0;
+margin: -235px 0 0 1020px;
+overflow: hidden;
+float: left;    
+background-color: #ccc;
+
+}
+.intro4{
+    
+    width: 1522px;
+    height: 450px;
+    background: url(foto/bg_1.png);
+    background-size: 1522px auto;
+    margin: 100px 0 0 0 ;
+    float: left;
+    margin: -50px 0 0 0;
+   
+}
+
+.b2{
+    -webkit-transform: rotate(180deg);
+    writing-mode: tb-rl;
+    margin: 200px 0 0 0;
+ }
+.q{
+    float: left;    
+    margin: -150px 0 0 100px;
+}
+ .q1{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    float: left;    
+    
+ }
+ .intro5{
+    position: relative;
+    width: 1522px;
+    height: 550px;
+    background: url(foto/Screenshot_3.png);
+    background-size: 1522px auto;
+    margin: 100px 0 0 0 ;
+    float: left;
+    margin: -50px 0 0 0;
+ }
+ .L{
+    position: absolute;
+    bottom: 400px; /* Положение от нижнего края */
+    right:  700px; /* Положение от левого края */
+    margin: 0 50 30px 0; 
+ }  
+ .L1{
+
+    position: absolute;
+    bottom: 350px; /* Положение от нижнего края */
+    right:  500px; /* Положение от левого края */
+    margin: 0 50 30px 0;
+    font-size: 40px;
+font-weight: 400;
+line-height: 22px;
+ }
+ .L2{
+    position: absolute;
+     width: 400px;
+     height: 50px;
+    bottom: 280px; /* Положение от нижнего края */
+    right:  380px; /* Положение от левого края */
+    margin: 0 50 30px 0;
+    overflow: hidden;
+    font-size: 13px;
+font-weight: 400;
+line-height: 25px;
+ } 
+.intro6{
+    width: 1522px;
+    height: 400px;
+    background:url(foto/bg_1.png);
+    float: right;
+    margin: 500px 0 0 0 ;
+}
+.g{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    margin: 50px 0 0 50px;
+}
+.g1{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 20px 0 0 100px;
+}
+.g2{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 20px 0 0 100px;
+}
+.g3{
+    width: 800px;
+    height: 25px;
+    overflow: hidden;
+    margin: 350px 0 0 200px ;
+}
+
+
+
+
+
